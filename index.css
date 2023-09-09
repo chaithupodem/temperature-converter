@@ -1,0 +1,62 @@
+.bgcontainer{
+    background-image: url("https://www.almanac.com/sites/default/files/styles/or/public/image_nodes/celsius-shutterstock_438834709.jpg?itok=MGQvt");
+    height: 100vh;
+    background-size: cover;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.converter {
+    background-color:#f2f5f5;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 16px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.results {
+    margin-top: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+span {
+    font-weight: bold;
+}
